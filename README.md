@@ -43,8 +43,8 @@ Usage
 i-Getting Started
 
 1. Clone the Repository: 
-      git clone https://github.com/yourusername/country-information-search.git
-   cd country-information-search
+      git clone https://github.com/Saron-fiseha/search-the-world.git
+   cd search-the-world
    
 
 2. Open index.html: Open the index.html file in your web browser.
