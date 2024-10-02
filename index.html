@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Country Information Search</h1>
+        <div> 
+            <input type="text" id="searchInput" placeholder="Search for a country..." />
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="message" style="color: red;"></div> <!-- Message display -->
+       <table id="countryTable">
+                <thead>
+                    <tr>
+                        <th>Flag</th>
+                        <th>Country Name</th>
+                        <th>Capital</th>
+                        <th>Population</th>
+                        <th>Region</th>
+                        <th>Languages</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Rows will be dynamically inserted here -->
+                </tbody>
+            </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
