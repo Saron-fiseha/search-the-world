@@ -1,0 +1,14 @@
+{
+  "name": "search-the-world",
+  "version": "1.0.0",
+  "description": "designed to provide users with detailed information about countries around the world",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saron Fiseha",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
